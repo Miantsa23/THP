@@ -1,0 +1,44 @@
+.nav{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav > div{
+  margin: 10px;
+}
+
+.nav >div >p{
+  cursor: pointer;
+}
+
+
+
+.conteneur{
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.conteneur > div{
+  margin: 8px;
+}
+
+button{
+  background-color: #e7e7e7; color: black; 
+  border: none;
+  padding: 15px 32px;
+  cursor: pointer;
+  margin: 0px 5px;
+}
+
+input{
+  width: 550px;
+  height: 38px;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}
